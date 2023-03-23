@@ -1,23 +1,19 @@
-.container{
-    display: flex;
-    gap: 20px;
+.row{
+    padding: 0.25rem;
+    gap: 10px;
 }
-.principal{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+.col{
+    background-color: #2a93cf;
 }
-@media(max-width: 640px) {
-    .container{
-        display:flex;
-        flex-direction:column-reverse;
-    }
-    .bar ul{
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        gap: 5%;
-
-        
-    }
+.col-sm{
+    background-color: blue;
+}
+.col-md{
+    background-color: cornflowerblue;
+}
+.col-lg{
+    background-color: crimson;
+}
+.col-xl{
+    background-color: coral;
 }
